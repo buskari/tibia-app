@@ -8,7 +8,7 @@ describe('SingUp Controller', () => {
       body: {
         email: '',
         password: '',
-        validPassword: ''
+        confirmPassword: ''
       }
     }
     const httpResponse = sut.handle(httpRequest)
