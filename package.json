@@ -4,8 +4,8 @@
   "description": "App for tibia players",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "npm test",
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "keywords": [],
